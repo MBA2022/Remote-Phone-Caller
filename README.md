@@ -74,7 +74,7 @@ To enable USB debugging on your Android device:
 ### Fill the ip of the phone and the number you wanna call
 
 ```
-phone_ip = '123.123.1.123'
+phone_ip = '192.168.1.123'
 number_to_call = '+1234567890'
 ```
 ### Using USB
