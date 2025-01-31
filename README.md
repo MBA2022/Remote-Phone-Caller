@@ -71,7 +71,7 @@ To enable USB debugging on your Android device:
 
 ## Setting Up the Project
 
-### Fill the ip of the phone and the number of the phone in the code
+### Fill the ip of the phone and the number you wanna call
 
 ```
 phone_ip = '123.123.1.123'
