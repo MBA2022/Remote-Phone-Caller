@@ -3,7 +3,6 @@
 This project allows you to remotely control your Android phone to make calls using a Python script. It uses ADB (Android Debug Bridge) to send commands to the phone over Wi-Fi or USB.
 
 ---
-
 ## Table of Contents
 1. [Features](#features)
 2. [Prerequisites](#prerequisites)
