@@ -71,12 +71,6 @@ To enable USB debugging on your Android device:
 
 ## Setting Up the Project
 
-### Fill the ip of the phone and the number you wanna call
-
-```
-phone_ip = '192.168.1.123'
-number_to_call = '+1234567890'
-```
 ### Using USB
 1. Connect your phone to your PC via USB.
 2. Ensure ADB recognizes your device:
@@ -161,8 +155,7 @@ python pc_controller.py
 3. The phone will initiate the call.
 
 ### Important Notes:
-- **You must set the correct IP address of your phone** in both `phone_server.py` and `pc_controller.py` before running the code.
-- The command `python pc_controller.py --call +1234567890` does not work as expected and should not be used.
+- **You must set the correct IP address of your phone and the number you wanna call ** in `pc_controller.py` before running the code.
 - Always verify the ADB connection before running the scripts.
 
 ---
