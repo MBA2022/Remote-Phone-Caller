@@ -71,6 +71,12 @@ To enable USB debugging on your Android device:
 
 ## Setting Up the Project
 
+### Fill the ip of the phone and the number of the phone in the code
+
+```
+phone_ip = '123.123.1.123'
+number_to_call = '+1234567890'
+```
 ### Using USB
 1. Connect your phone to your PC via USB.
 2. Ensure ADB recognizes your device:
